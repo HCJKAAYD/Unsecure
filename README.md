@@ -16,6 +16,7 @@ Then clone this repository, and launch docker.
 After that you can start the project by using the following command line at the root of the location's project :
 
 `>docker-compose build`
+
 `>docker-compose up`
 
 Once these commands are done, you should be okay and the running of this project should be ongoing.
