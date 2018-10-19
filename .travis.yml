@@ -11,4 +11,4 @@ before_script:
   
 script:
    - phpunit
-   - ls
+   - php app/console security-checker.phar security:check 
