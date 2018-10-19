@@ -8,8 +8,7 @@ matrix:
         
 before_script:
   - composer install
-  - composer require sensiolabs/security-checker
-        
+  - php security-checker security:check /path/to/composer.lock
+  
 script:
    - phpunit
-   - php security-checker.phar security:check
