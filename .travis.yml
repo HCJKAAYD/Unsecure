@@ -11,4 +11,4 @@ before_script:
   
 script:
    - phpunit
-   - ./app/console security-checker.phar security:check --end-point=http://security.sensiolabs.org/check_lock
+   - ./app/console security:check --end-point=http://security.sensiolabs.org/check_lock
