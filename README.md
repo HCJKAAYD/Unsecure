@@ -21,9 +21,9 @@ After that you can start the project by using the following command line at the 
 Once these commands are done, you should be okay and the running of this project should be ongoing.
 
 If you want to close all containers, then use the following command :
-`
->docker-compose down
-`
+
+`>docker-compose down`
+
 To connect on the website locally, you have to access it with Docker's default IP address (192.168.99.100:8080)
 
 # What should I do if I need support
