@@ -11,4 +11,4 @@ before_script:
         
 script:
    - phpunit
-   - security-checker security:check composer.lock
+   - security-checker.phar security:check composer.lock
